@@ -12,7 +12,7 @@ Authentication clients are provided in the following languages.  Each developmen
 | ![ruby](images/ruby-logo-32.png)  | [Ruby](Ruby) - a Ruby Library with Rails implementation notes and demonstration server |
 | ![php](images/php_32.png)         | [Php](PHP)  - Official PHP Library and demonstration server |
 | ![node.js](images/js_32.png)      | [Node.js](Node.js) - Official Node.js Library |
-| ![.NET](images/net-logo-32.jpg)   | [.NET](NET) - Community contributed .NET/CSharp libraries and test programs |
+| ![.NET](images/net-logo-32.jpg)   | [.NET](NET) - Community contributed (and unsupported) .NET/CSharp libraries and test programs |
 
 
 ## Overview of RTCC Authentication
