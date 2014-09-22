@@ -56,7 +56,7 @@ Strong encryption and client certificates are used to verify the identity of you
 
 The first three pieces of information are used to configure the SSL connection from your server to the RTCC Cloud.
 
-- authCA.pem: This is a certificate authority that verifies the identity of the RTCC server.
+- authCA.crt: This is a certificate authority that verifies the identity of the RTCC server.
 - client.p12: This is a container that contains a key and certificate that verifies the identity of your server to the RTCC Cloud.
 - passphrase: This is password that unlocks the .p12 file.
 
