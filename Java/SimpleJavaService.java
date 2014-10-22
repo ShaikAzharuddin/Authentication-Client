@@ -44,7 +44,7 @@ public class SimpleJavaService {
     public static void main(String[] args) throws Exception {
 
         // Enter below your path to certificate files, to RTCC Auth Server and your credentials
-        final String CA_FILE        = "/Path/To/Your/Cert/authCA.pem";
+        final String CA_FILE        = "/Path/To/Your/Cert/authCA.crt";
         final String P12_FILE       = "/Path/To/Your/Cert/client.p12";
         final String AUTH_URL       = "https://auth.rtccloud.net/auth/";
         final String P12_PASS       = "abcdefgh";
