@@ -58,7 +58,7 @@ Note: on Windows, you should replace the ':' in the classpath with ';' as shown 
 
 You can use curl to obtain a token for a user id this way.
 
-    curl "http://localhost:8000/gettoken.php?uid=test99"
+    curl "http://localhost:8000/gettoken?uid=test99"
 
 If everything is ok, you will find a JSON object as the response.
 
