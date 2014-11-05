@@ -27,7 +27,6 @@ var RTCCClient = function(auth_url, ca_file, public_cert, private_key, cert_pass
       requestCert:        true,
       rejectUnauthorized: false,
       passphrase: cert_password,
-      secureProtocol: 'SSLv3_method',
 
       // follow_location
       // certtype = "PEM"

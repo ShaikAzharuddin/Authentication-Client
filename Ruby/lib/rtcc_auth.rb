@@ -46,7 +46,6 @@ class RTCCAuth
     http = Net::HTTP.new(uri.host, uri.port)
     http.use_ssl = true
     http.verify_mode = OpenSSL::SSL::VERIFY_PEER
-    http.ssl_version = :SSLv3
 
     # Never enable this debugging statement in production, but it is helpful for debug
     http.set_debug_output $stderr

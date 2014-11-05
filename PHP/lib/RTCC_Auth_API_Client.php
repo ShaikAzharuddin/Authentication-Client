@@ -179,7 +179,6 @@ class RTCC_Client
         curl_setopt($this->_curl, CURLOPT_CAPATH, './');
         curl_setopt($this->_curl, CURLOPT_SSL_VERIFYHOST, 2);
         curl_setopt($this->_curl, CURLOPT_FAILONERROR, 0);
-        curl_setopt($this->_curl, CURLOPT_SSLVERSION, 3);
         curl_setopt($this->_curl, CURLOPT_SSLKEYPASSWD, $this->_passphrase);
         curl_setopt($this->_curl, CURLOPT_SSLCERT, $this->_file_pem);
         curl_setopt($this->_curl, CURLOPT_SSLCERTPASSWD, $this->_passphrase);
