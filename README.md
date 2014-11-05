@@ -12,7 +12,7 @@ Authentication clients are provided in the following languages.  Each developmen
 | ![ruby](images/ruby-logo-32.png)  | [Ruby](Ruby) - a Ruby Library with Rails implementation notes and demonstration server |
 | ![php](images/php_32.png)         | [Php](PHP)  - Official PHP Library and demonstration server |
 | ![node.js](images/js_32.png)      | [Node.js](Node.js) - Official Node.js Library |
-| ![.NET](images/net-logo-32.jpg)   | [.NET](NET) - Community contributed .NET/CSharp libraries and test programs |
+| ![.NET](images/net-logo-32.jpg)   | [.NET](NET) - Community contributed (and unsupported) .NET/CSharp libraries and test programs |
 
 
 ## Overview of RTCC Authentication
@@ -56,7 +56,7 @@ Strong encryption and client certificates are used to verify the identity of you
 
 The first three pieces of information are used to configure the SSL connection from your server to the RTCC Cloud.
 
-- authCA.pem: This is a certificate authority that verifies the identity of the RTCC server.
+- authCA.crt: This is a certificate authority that verifies the identity of the RTCC server.
 - client.p12: This is a container that contains a key and certificate that verifies the identity of your server to the RTCC Cloud.
 - passphrase: This is password that unlocks the .p12 file.
 
