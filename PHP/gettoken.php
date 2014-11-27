@@ -10,11 +10,13 @@
 // ini_set('display_error', 'On');
 // error_reporting(E_ALL);
 
-// Path to the RTCC CA Cert
+// Path to the RTCC CA Cert and client.p12 file
 $RTCC_CACERT = "/Path/To/Your/Cert/authCA.crt";
-
-// Paths to the extracted key and cert from the client.p12 file
 $RTCC_CLIENTP12 = "/Path/To/Your/Cert/client.p12";
+
+// Use the following if you place your certs in a directory named 'certs' that is a subdirectory of this directory
+// $RTCC_CACERT = __DIR__.DIRECTORY_SEPARATOR."certs".DIRECTORY_SEPARATOR."authCA.crt";
+// $RTCC_CLIENTP12 = __DIR__.DIRECTORY_SEPARATOR."certs".DIRECTORY_SEPARATOR."client.p12";
 
 // Password
 $RTCC_CERTPASSWORD = "abcdefgh";
