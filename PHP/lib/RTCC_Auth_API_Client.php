@@ -185,10 +185,16 @@ class RTCC_Client
         curl_setopt($this->_curl, CURLOPT_SSLKEYTYPE, 'PEM');
         curl_setopt($this->_curl, CURLOPT_SSLKEY, $this->_file_key);
         curl_setopt($this->_curl, CURLOPT_CAINFO, $this->_cacert);
-
         curl_setopt($this->_curl, CURLOPT_HTTPHEADER, array('Expect:'));
 
-        return curl_exec($this->_curl);
+        $output = curl_exec($this->_curl);
+        
+        if($output === false)
+        {
+           throw new Exception(sprintf('Curl error: "%s"', curl_error($this->_curl)));
+        }
+
+        return $output;
     }
 }
 ?>
