@@ -9,7 +9,7 @@
     {   
         /// <summary>
         /// Weemo's oAuth url
-        /// (i.e. "https://oauths.weemo.com/auth/")
+        /// (i.e. "https://auth.rtccloud.net/auth/")
         /// </summary>
         string AuthUrl { get; set; }
 

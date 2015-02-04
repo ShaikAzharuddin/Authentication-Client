@@ -20,7 +20,7 @@ namespace Weemo.Api.HttpWebRequestTests
 
             var config = new WeemoConfig(new CertLoader())
                 {
-                    AuthUrl = "https://oauths.weemo.com/auth/",
+                    AuthUrl = "https://auth.rtccloud.net/auth/",
                     ClientId = "CLIENT_ID_GOES_HERE",
                     ClientSecret = "CLIENT_SECRET_GOES_HERE",
                     ClientRootCertAuthorityIsInstalledOnServer = false

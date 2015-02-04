@@ -86,7 +86,7 @@ public class WeemoClientFactory
         var _appData = RootPathProvider.GetRootPath() + "App_Data\\";
 
         var _weemoConfig = new WeemoConfig(new CertLoader()) {
-            AuthUrl = "https://oauths.weemo.com/auth/",
+            AuthUrl = "https://auth.rtccloud.net/auth/",
             ClientId = "YOUR_CLIENT_ID_HERE",
             ClientSecret = "YOUR_CLIENT_SECRET_HERE",
             ClientRootCertAuthorityIsInstalledOnServer = true // or false if you are not installing the root cert on your server
