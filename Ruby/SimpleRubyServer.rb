@@ -37,7 +37,7 @@ class RTCCServlet < WEBrick::HTTPServlet::AbstractServlet
 
       # Set the client and profile identifiers as appropriate for your RTCC installation
       identifier_client = "yourdomain.com";
-      id_profile = "premium";
+      id_profile = "premium_recording_plus";
 
       obj = @client.auth(uid, identifier_client, id_profile)
 

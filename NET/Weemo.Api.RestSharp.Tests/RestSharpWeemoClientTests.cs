@@ -32,7 +32,7 @@ namespace Weemo.Api.RestSharp.Tests
             {
                 Uid = "UNIQUE_USER_ID_GOES_HERE",
                 Domain = "your-domain.com",
-                LicenseType = WeemoLicenseTypes.premium
+                LicenseType = WeemoLicenseTypes.premium_recording_plus
             };
 
             // when

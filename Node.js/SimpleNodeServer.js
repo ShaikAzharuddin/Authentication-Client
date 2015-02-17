@@ -42,7 +42,7 @@ var server = http.createServer(function (request, response) {
 
       // Set the client and profile identifiers as appropriate for your RTCC installation
       var identifier_client = "yourdomain.com";
-      var id_profile = "premium";
+      var id_profile = "premium_recording_plus";
 
       console.log(["uid", uid, identifier_client, id_profile]);
 

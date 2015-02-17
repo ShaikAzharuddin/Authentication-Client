@@ -94,7 +94,7 @@ public class SimpleJavaService {
             String uid = (String) params.get("uid");
 
             String domain = "yourdomain.com";         // group of users
-            String profile = "premium";               // premium profile
+            String profile = "premium_recording_plus"; // premium profile
 
             if (uid == null) {
                 System.out.println("No UID found in request");
