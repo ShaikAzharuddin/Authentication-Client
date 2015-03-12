@@ -14,7 +14,7 @@
         string AuthUrl { get; set; }
 
         /// <summary>
-        /// Created from the "weemo-ca.pem" file given to you by Weemo
+        /// Created from the "authCA.crt" file given to you by Weemo
         /// </summary>
         X509Certificate2 ClientRootCertAuthority { get; set; }
 
@@ -39,7 +39,7 @@
         string QueryString { get; }
 
         /// <summary>
-        /// If the root certificate authority (the "weemo-ca.pem" file given to you by Weemo)
+        /// If the root certificate authority (the "authCA.crt" file given to you by Weemo)
         /// is installed in the servers trusted storage or is implicitly trusted, set this to 
         /// true (recommended). Otherwise, set it to false, and the CertificateValidator will 
         /// perform a more relaxed validation of the response.
@@ -51,7 +51,7 @@
         bool ClientRootCertAuthorityIsInstalledOnServer { get; set; }
 
         /// <summary>
-        /// Reads the the "weemo-ca.pem" file given to you by Weemo into an X509Certificate2
+        /// Reads the the "authCA.crt" file given to you by Weemo into an X509Certificate2
         /// </summary>
         /// <param name="privateCaPath">the filesystem path to the cert file</param>
         /// <returns>this IWeemoConfig for chainability</returns>
