@@ -91,7 +91,7 @@ public class WeemoClientFactory
             ClientSecret = "YOUR_CLIENT_SECRET_HERE",
             ClientRootCertAuthorityIsInstalledOnServer = true // or false if you are not installing the root cert on your server
         }
-        .SetClientRootCertAuthorityFromPath(_appData + "weemo-ca.pem")
+        .SetClientRootCertAuthorityFromPath(_appData + "authCA.crt")
         .SetClientCertFromPath(_appData + "client.p12", "PASSWORD_THAT_UNLOCKS_THE_.p12_FILE");
 
         return _weemoConfig;
