@@ -13,7 +13,7 @@ namespace Weemo.Api.RestSharp.Tests
         {
             // given
             var baseDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
-            var pathToPrivateCA = Path.Combine(baseDir, "Certs", "weemo-ca.pem").ToString();
+            var pathToPrivateCA = Path.Combine(baseDir, "Certs", "authCA.crt").ToString();
             var pathToClientCert = Path.Combine(baseDir, "Certs", "client.p12").ToString();
 
             var config = new WeemoConfig(new CertLoader())
